@@ -1,6 +1,6 @@
 from components.core.image_matrix import get_image
 from components.core.mean_filter import mean_kernel
-from components.core.filter_design import convolve2d
+from components.core.convolution import convolve2d
 
 img = get_image()
 kernel = mean_kernel(3)
