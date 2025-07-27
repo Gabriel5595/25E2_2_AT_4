@@ -20,8 +20,8 @@ var_after  = np.var(smoothed)
 edge_before = edge_energy(img)
 edge_after  = edge_energy(smoothed)
 
-print(f"Variância global: antes={var_before:.2f}  depois={var_after:.2f}")
-print(f"Energia de bordas (|∇| média): antes={edge_before:.2f}  depois={edge_after:.2f}")
+print(f"\nVariância global: antes={var_before:.2f}  depois={var_after:.2f}")
+print(f"Energia de bordas (|∇| média): antes={edge_before:.2f}  depois={edge_after:.2f}\n")
 
 print(img)
 print(smoothed.round().astype(int))
